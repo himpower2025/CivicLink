@@ -1,6 +1,7 @@
 {
   "requestFramePermissions": [
-    "geolocation"
+    "geolocation",
+    "notifications"
   ],
   "name": "CivicLink by Himpower",
   "description": "Sophisticated Government Vehicle Tracking developed by Himpower Pvt. Ltd."
