@@ -429,14 +429,14 @@ export function App() {
           <div class="modal-overlay anim-fade-in">
             <div class="modal-sheet">
               <div class="modal-header">
-                <h3 class="modal-title">🔒 Privacy Policy (개인정보 처리방침)</h3>
+                <h3 class="modal-title">🔒 Privacy Policy</h3>
                 <button class="modal-close-btn" onClick=${() => setShowPrivacyPolicy(false)}>✕</button>
               </div>
               <div class="policy-content-box">
                 <h4>1. Overview</h4>
                 <p>CivicLink PRO, operated by <strong>Himpower Pvt. Ltd.</strong>, respects your privacy and is committed to protecting all personal and mobility data collected through our fleet tracking service.</p>
                 
-                <h4>2. Location Data Collection (위치 정보 수집)</h4>
+                <h4>2. Location Data Collection</h4>
                 <p>To provide real-time government vehicle positioning and precise ETA calculations, CivicLink PRO collects fine and coarse geolocation data when a driver initiates an active shift. Location data is strictly used for dispatch management and emergency response.</p>
                 
                 <h4>3. Data Protection & Encryption</h4>
@@ -455,7 +455,7 @@ export function App() {
           <div class="modal-overlay anim-fade-in">
             <div class="modal-sheet">
               <div class="modal-header">
-                <h3 class="modal-title">📜 Terms of Service (이용약관)</h3>
+                <h3 class="modal-title">📜 Terms of Service</h3>
                 <button class="modal-close-btn" onClick=${() => setShowTermsOfService(false)}>✕</button>
               </div>
               <div class="policy-content-box">
@@ -634,10 +634,10 @@ export function App() {
              <div class="settings-section">
                <div class="settings-group-title">⚖️ Store Compliance & Data Rights</div>
                <button class="role-btn" style="height: 46px; margin-bottom: 8px; font-size: 0.85rem;" onClick=${() => setShowPrivacyPolicy(true)}>
-                 🔒 Privacy Policy (개인정보 처리방침)
+                 🔒 Privacy Policy
                </button>
                <button class="role-btn" style="height: 46px; margin-bottom: 8px; font-size: 0.85rem;" onClick=${() => setShowTermsOfService(true)}>
-                 📜 Terms of Service (이용약관)
+                 📜 Terms of Service
                </button>
                <button class="role-btn" style="height: 46px; margin-bottom: 8px; font-size: 0.85rem;" onClick=${() => setShowLocationDisclosure(true)}>
                  📍 Prominent Location Disclosure
@@ -728,7 +728,7 @@ export function App() {
         <div class="modal-overlay anim-fade-in">
           <div class="modal-sheet">
             <div class="modal-header">
-              <h3 class="modal-title">🔒 Privacy Policy (개인정보 처리방침)</h3>
+              <h3 class="modal-title">🔒 Privacy Policy</h3>
               <button class="modal-close-btn" onClick=${() => setShowPrivacyPolicy(false)}>✕</button>
             </div>
             <div class="policy-content-box">
@@ -747,7 +747,7 @@ export function App() {
         <div class="modal-overlay anim-fade-in">
           <div class="modal-sheet">
             <div class="modal-header">
-              <h3 class="modal-title">📜 Terms of Service (이용약관)</h3>
+              <h3 class="modal-title">📜 Terms of Service</h3>
               <button class="modal-close-btn" onClick=${() => setShowTermsOfService(false)}>✕</button>
             </div>
             <div class="policy-content-box">
